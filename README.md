@@ -11,8 +11,8 @@ To launch this project, in the file path of this project open terminal and launc
 I personally like to use nodemon.
 
 Extra Credit Changes:
--Side panel with profile pic Background color to a steel-blue
--Changed the font-family to 'Courier New' in the CSS
+-Side panel with profile pic Background color to a tomato red.
+-Changed the font-family to 'Courier New' in the CSS.
 -Hover effect transition added to thumb-nail and profile image.
 -Add logo to index.pug, about.pug and project.pug, image file in public folder under images and created CSS rules for the logo.
 
