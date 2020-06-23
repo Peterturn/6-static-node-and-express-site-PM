@@ -18,4 +18,4 @@ Extra Credit Changes:
 
 Credits:
 Team Treahouse for the insturctions on how to put this project together.
-logo credit Logomakr.com
+logo credit goes to Logomakr.com

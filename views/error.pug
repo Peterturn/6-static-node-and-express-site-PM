@@ -1,6 +1,9 @@
 extends layout
 
 block content
+    img.fourOfour(src=`../static/images/error-2129569_1920.jpg`)
     h1= error.message
     h2= error.status
     pre= error.stack
+    script.
+        console.log("This is a user friendly error message...you have encountered an error.")

@@ -23,7 +23,9 @@ app.get('/projects/:id', function(req, res, next) {
     if (project) {
       res.render('project', { project });
     } else {
-      res.sendStatus(404);
+      const err = new Error('Not Found');
+      err.status = 404;
+      next(err);
     }
   });
 
@@ -36,6 +38,7 @@ app.get('/projects/:id', function(req, res, next) {
   app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
+    console.log('This is a user friendly error message...you have encountered an error.');
     res.render('error');
   });
   
