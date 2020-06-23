@@ -57,6 +57,14 @@ a:hover{
   line-height: 0;
 }
 
+.logo{
+  display: inline-block;
+  max-width: 20%;
+  margin-bottom: 1rem;
+  border-radius: 0;
+  line-height: 0;
+}
+
 /* Changed background color from grey/black to tomatoe*/ 
 .portfolio-me{
   padding: 20px;
